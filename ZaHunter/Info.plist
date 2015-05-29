@@ -36,5 +36,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Can we stalk you?</string>
 </dict>
 </plist>

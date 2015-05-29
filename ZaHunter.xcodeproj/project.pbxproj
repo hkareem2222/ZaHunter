@@ -14,6 +14,8 @@
 		858AC12A1B1794DE0019EFAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858AC1291B1794DE0019EFAB /* Images.xcassets */; };
 		858AC12D1B1794DE0019EFAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 858AC12B1B1794DE0019EFAB /* LaunchScreen.xib */; };
 		858AC1391B1794DE0019EFAB /* ZaHunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 858AC1381B1794DE0019EFAB /* ZaHunterTests.m */; };
+		858AC1431B1796890019EFAB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858AC1421B1796890019EFAB /* MapKit.framework */; };
+		858AC1491B17AB770019EFAB /* Pizzeria.m in Sources */ = {isa = PBXBuildFile; fileRef = 858AC1481B17AB770019EFAB /* Pizzeria.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		858AC1321B1794DE0019EFAB /* ZaHunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaHunterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		858AC1371B1794DE0019EFAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		858AC1381B1794DE0019EFAB /* ZaHunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaHunterTests.m; sourceTree = "<group>"; };
+		858AC1421B1796890019EFAB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		858AC1471B17AB770019EFAB /* Pizzeria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizzeria.h; sourceTree = "<group>"; };
+		858AC1481B17AB770019EFAB /* Pizzeria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizzeria.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				858AC1431B1796890019EFAB /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		858AC1101B1794DE0019EFAB = {
 			isa = PBXGroup;
 			children = (
+				858AC1421B1796890019EFAB /* MapKit.framework */,
 				858AC11B1B1794DE0019EFAB /* ZaHunter */,
 				858AC1351B1794DE0019EFAB /* ZaHunterTests */,
 				858AC11A1B1794DE0019EFAB /* Products */,
@@ -81,6 +88,8 @@
 		858AC11B1B1794DE0019EFAB /* ZaHunter */ = {
 			isa = PBXGroup;
 			children = (
+				858AC1471B17AB770019EFAB /* Pizzeria.h */,
+				858AC1481B17AB770019EFAB /* Pizzeria.m */,
 				858AC1201B1794DE0019EFAB /* AppDelegate.h */,
 				858AC1211B1794DE0019EFAB /* AppDelegate.m */,
 				858AC1231B1794DE0019EFAB /* ViewController.h */,
@@ -222,6 +231,7 @@
 				858AC1251B1794DE0019EFAB /* ViewController.m in Sources */,
 				858AC1221B1794DE0019EFAB /* AppDelegate.m in Sources */,
 				858AC11F1B1794DE0019EFAB /* main.m in Sources */,
+				858AC1491B17AB770019EFAB /* Pizzeria.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
