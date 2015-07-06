@@ -1,6 +1,6 @@
 ZaHunter
 ======
-**ZaHunter** is an iOS app that locates pizza stores around you using the natural language query provided by the Map Kit Framework.
+**ZaHunter** is an iOS app that locates pizza stores around you. It uses the natural language query provided by the Map Kit Framework.
 
 ## Technology
 * Map Kit Framework
